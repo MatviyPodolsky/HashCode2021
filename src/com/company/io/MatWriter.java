@@ -15,12 +15,13 @@ public class MatWriter {
 
     public void write(OutputData data) {
         StringBuilder sb = new StringBuilder();
-        sb.append(data.getPizzaCount());
+        sb.append("test");
+//        sb.append(data.getPizzaCount());
         sb.append("\n");
-        for (int i = 0; i < data.getPizzaCount(); i++) {
-            sb.append(data.getPizzas()[i]);
-            sb.append(" ");
-        }
+//        for (int i = 0; i < data.getPizzaCount(); i++) {
+//            sb.append(data.getPizzas()[i]);
+//            sb.append(" ");
+//        }
 
         try {
             FileWriter writer = new FileWriter(file);
